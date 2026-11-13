@@ -1,27 +1,31 @@
 # <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="35" align="left"> Estudos de SQL
 
-Repositório dedicado aos meus estudos de SQL e MySQL, com aulas, exercícios e materiais organizados para consulta e prática.
+Repositório dedicado aos meus estudos de SQL e MySQL, com aulas e exercícios organizados para consulta e prática.
 
 ## Navegação
 
-- [Aulas](./aulas/README.md) — conteúdos e scripts organizados por aula.
-- [Exercícios](./exercicios/00-indice.md) — atividades para praticar os comandos SQL.
-- [Projetos](./projetos/) — espaço para projetos desenvolvidos durante os estudos.
+- [Aulas](./aulas/README.md) — conteúdos e scripts separados por assunto.
+- [Exercícios](./exercicios/README.md) — atividades práticas.
+- [Projetos](./projetos/README.md) — espaço para projetos desenvolvidos durante os estudos.
 
-## Estrutura
+## Organização
 
 ```text
 estudos-sql/
-├── aulas/       # aulas e conteúdos de SQL
-├── exercicios/  # atividades práticas
-├── projetos/    # projetos desenvolvidos
+├── aulas/
+│   ├── 01-criacao-de-tabelas/
+│   ├── 02-constraints-e-relacionamentos/
+│   └── 03-manipulacao-de-dados/
+├── exercicios/
+│   └── 01-loja-virtual/
+├── projetos/
 └── README.md
 ```
 
 ## Como usar
 
-1. Consulte os índices de [aulas](./aulas/README.md) e [exercícios](./exercicios/00-indice.md).
-2. Abra o arquivo SQL correspondente ao conteúdo que deseja estudar.
+1. Consulte o índice de [aulas](./aulas/README.md) ou [exercícios](./exercicios/README.md).
+2. Abra o README da pasta para localizar o script desejado.
 3. Execute os comandos na ordem indicada, utilizando o MySQL Workbench ou outro ambiente MySQL.
 
 ## Perfil
