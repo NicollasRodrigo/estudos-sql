@@ -1,24 +1,20 @@
 # Aulas de SQL
 
-Materiais e scripts organizados por aula e assunto.
+Materiais organizados por sequência e assunto.
 
 ## Aulas
 
-- [Aula 01 — Criação de tabelas](./aula-01-criacao-de-tabelas.sql)
-- [Aula 02 — Constraints e ALTER TABLE (script completo)](./aula-02-completa.sql)
+| Aula | Conteúdo |
+|---|---|
+| [01 — Criação de tabelas](./01-criacao-de-tabelas/README.md) | Bancos de dados, tabelas e constraints iniciais |
+| [02 — Constraints e relacionamentos](./02-constraints-e-relacionamentos/README.md) | Chaves, relacionamentos, exclusões e ALTER TABLE |
+| [03 — Manipulação de dados](./03-manipulacao-de-dados/README.md) | INSERT, SELECT, UPDATE e DELETE |
 
-### Aula 02 — Conteúdos por parte
+## Como estudar
 
-- [Parte 1 — Constraints básicas](./aula-02-01-constraints-basicas.sql)
-- [Parte 2 — Constraint com nome](./aula-02-02-constraint-com-nome.sql)
-- [Parte 3 — ON DELETE RESTRICT](./aula-02-03-on-delete-restrict.sql)
-- [Parte 4 — ON DELETE SET NULL](./aula-02-04-on-delete-set-null.sql)
-- [Parte 5 — ON DELETE CASCADE](./aula-02-05-on-delete-cascade.sql)
-- [Parte 6 — ALTER TABLE](./aula-02-06-alter-table.sql)
-
-## Conteúdo complementar
-
-- [DML — INSERT, UPDATE e DELETE](./dml-insert-update-delete.sql)
+1. Comece pela primeira aula.
+2. Abra o README de cada aula para encontrar os arquivos.
+3. Na Aula 02, escolha o script completo ou os arquivos separados por parte.
 
 ---
 
